@@ -1,6 +1,6 @@
-let value = number;
+let value = null;
 
-if (value === number) {
+if (value === null) {
     console.log("null");
 } else if (typeof value === "string"){
     console.log("string");
@@ -12,4 +12,5 @@ if (value === number) {
     console.log("object");
 }else if(typeof value === "undefined"){
     console.log("undefined");
+
 }
